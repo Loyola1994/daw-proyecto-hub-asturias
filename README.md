@@ -1,6 +1,6 @@
 # Hub Junior Asturias
 
-**Autor:** Loyola Antuña Mérida
+**Autor:** Luis Loyola Antuña Mérida
 
 **Curso:** 2º DAW
 
