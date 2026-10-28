@@ -32,6 +32,28 @@ La plataforma se centra especialmente en el alumnado de Formación Profesional d
 - **Base de datos:** MySQL.
 - **Control de versiones y alojamiento del código:** Git y GitHub.
 
+## Convención de commits
+
+El proyecto utiliza **Conventional Commits** para mantener un historial de cambios claro, uniforme y fácil de consultar.
+
+Los mensajes de commit siguen el formato `tipo: descripción`, utilizando el tipo que corresponda al cambio realizado.
+
+Tipos principales utilizados:
+
+- `feat`: incorporación de funcionalidades.
+- `fix`: corrección de errores.
+- `docs`: cambios en la documentación.
+- `test`: incorporación o modificación de pruebas.
+- `chore`: tareas de configuración y mantenimiento.
+
+Ejemplos de mensajes:
+
+- `feat: añade registro de candidatos`
+- `fix: valida los datos del formulario`
+- `docs: actualiza la documentación del proyecto`
+- `test: añade pruebas de registro`
+- `chore: configura el entorno de desarrollo`
+
 ## Estado del proyecto
 El proyecto se encuentra en fase de planificación y desarrollo inicial. Se está definiendo su alcance, diseñando la base de datos y preparando el entorno de trabajo. 
 
