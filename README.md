@@ -54,6 +54,10 @@ Ejemplos de mensajes:
 - `test: añade pruebas de registro`
 - `chore: configura el entorno de desarrollo`
 
+## Tablero de GitHub Projects
+
+[Ver tablero](https://github.com/users/Loyola1994/projects/5)
+
 ## Estado del proyecto
 El proyecto se encuentra en fase de planificación y desarrollo inicial. Se está definiendo su alcance, diseñando la base de datos y preparando el entorno de trabajo. 
 
