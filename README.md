@@ -2,7 +2,7 @@
 
 **Autor:** Luis Loyola Antuña Mérida
 
-**Curso:** 2º DAW
+**Curso:** 2º DAW Virtual — CIFP Avilés
 
 **Curso académico:** 2026 / 2027
 
