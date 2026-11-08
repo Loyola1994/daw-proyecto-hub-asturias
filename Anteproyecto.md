@@ -198,8 +198,6 @@ En el MVP no se implementa un rol de empresa. Las empresas no disponen de acceso
 
 ### 2.3. Alcance del MVP 
 
-**Incluido:** 
-
 - Registro e inicio de sesión de candidatos.
 - Control de acceso basado en roles: candidato y administrador.
 - Consulta pública del listado de ofertas y sus detalles.
@@ -225,7 +223,15 @@ La búsqueda avanzada, los filtros múltiples y los perfiles profesionales compl
 
 El objetivo del proyecto es disponer de una versión funcional del MVP antes del 10 de diciembre de 2026, reservando tiempo para realizar pruebas, corregir errores y preparar la entrega del Hito 3.
 
-**Fuera del MVP:**
+**2.3.1 Funcionalidad diferencial: seguimiento de candidaturas**
+
+Hub Junior Asturias incorpora un sistema de seguimiento de candidaturas que permite conocer la evolución de las solicitudes presentadas a las ofertas publicadas en la plataforma.
+Cada candidatura dispone de un estado que refleja su situación durante el proceso de selección. Inicialmente, se registra como **RECIBIDA** y el administrador puede actualizarlo a **EN_REVISION**, **CONTACTADA** o **DESCARTADA**.
+El candidato puede consultar el estado de sus propias candidaturas desde su cuenta, mientras que el administrador puede revisar y actualizar el estado de todas las candidaturas recibidas.
+Esta funcionalidad facilita el seguimiento de las solicitudes y aporta una gestión adaptada a las necesidades de los estudiantes y titulados junior del sector tecnológico en Asturias.
+
+
+### 2.4 Fuera del MVP
 
 - Registro y gestión autónoma de empresas.
 - Publicación y gestión de ofertas por parte de las empresas.
@@ -287,10 +293,13 @@ El frontend consume la API REST desarrollada en Laravel. La autenticación y la 
   
 Git permite mantener un historial de cambios y organizar el desarrollo mediante ramas cuando resulte conveniente. GitHub se utiliza para alojar el repositorio, organizar las tareas mediante un tablero Kanban y ejecutar comprobaciones automatizadas mediante GitHub Actions.
 
-- **Alojamiento previsto: Railway o plataforma equivalente**
-  
-Se valora un servicio que permita desplegar el backend y la base de datos, así como publicar el frontend, en la misma plataforma o en servicios independientes. La aplicación debe disponer de acceso mediante HTTPS.
-La elección definitiva depende de las condiciones, los recursos disponibles y la compatibilidad de los servicios durante el despliegue.
+- **Alojamiento previsto: Railway**
+
+Se utiliza para alojar los servicios necesarios para el funcionamiento de la aplicación.
+
+La aplicación dispone de acceso mediante HTTPS.
+
+La configuración de los servicios se adapta a las necesidades del proyecto durante el despliegue.
 
 ---
 
